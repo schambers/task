@@ -1,0 +1,150 @@
+  [4;36;1mTask Create (1.5ms)[0m   [0;1mINSERT INTO "tasks" ("created_at", "updated_at") VALUES('2009-06-05 23:28:57', '2009-06-05 23:28:57')[0m
+  [4;36;1mTask Create (0.3ms)[0m   [0;1mINSERT INTO "tasks" ("created_at", "updated_at") VALUES('2009-06-05 23:41:40', '2009-06-05 23:41:40')[0m
+  [4;36;1mTask Create (0.5ms)[0m   [0;1mINSERT INTO "tasks" ("created_at", "updated_at") VALUES('2009-06-05 23:42:34', '2009-06-05 23:42:34')[0m
+  [4;36;1mTask Create (0.4ms)[0m   [0;1mINSERT INTO "tasks" ("created_at", "updated_at") VALUES('2009-06-05 23:43:48', '2009-06-05 23:43:48')[0m
+
+
+Processing TasksController#index (for 0.0.0.0 at 2009-06-05 19:48:37) [GET]
+  [4;36;1mTask Create (0.5ms)[0m   [0;1mINSERT INTO "tasks" ("created_at", "updated_at") VALUES('2009-06-05 23:48:46', '2009-06-05 23:48:46')[0m
+
+
+Processing TasksController#index (for 0.0.0.0 at 2009-06-05 19:48:46) [GET]
+
+
+Processing TasksController#index (for 0.0.0.0 at 2009-06-05 19:48:47) [GET]
+
+
+Processing TasksController#index (for 0.0.0.0 at 2009-06-05 19:48:48) [GET]
+
+
+Processing TasksController#index (for 0.0.0.0 at 2009-06-05 19:48:49) [GET]
+
+
+Processing TasksController#index (for 0.0.0.0 at 2009-06-05 19:48:50) [GET]
+  [4;36;1mTask Create (0.4ms)[0m   [0;1mINSERT INTO "tasks" ("created_at", "updated_at") VALUES('2009-06-05 23:49:23', '2009-06-05 23:49:23')[0m
+
+
+Processing TasksController#index (for 0.0.0.0 at 2009-06-05 19:49:23) [GET]
+
+
+Processing TasksController#index (for 0.0.0.0 at 2009-06-05 19:49:24) [GET]
+
+
+Processing TasksController#index (for 0.0.0.0 at 2009-06-05 19:49:25) [GET]
+
+
+Processing TasksController#index (for 0.0.0.0 at 2009-06-05 19:49:26) [GET]
+
+
+Processing TasksController#index (for 0.0.0.0 at 2009-06-05 19:49:27) [GET]
+
+
+Processing TasksController#index (for 0.0.0.0 at 2009-06-05 19:49:29) [GET]
+
+
+Processing TasksController#index (for 0.0.0.0 at 2009-06-05 19:49:30) [GET]
+
+
+Processing TasksController#index (for 0.0.0.0 at 2009-06-05 19:49:31) [GET]
+  [4;36;1mTask Create (3.3ms)[0m   [0;1mINSERT INTO "tasks" ("created_at", "updated_at") VALUES('2009-06-06 13:27:26', '2009-06-06 13:27:26')[0m
+
+
+Processing TasksController#index (for 0.0.0.0 at 2009-06-06 09:27:26) [GET]
+
+
+Processing TasksController#index (for 0.0.0.0 at 2009-06-06 09:27:30) [GET]
+  [4;36;1mTask Create (1.3ms)[0m   [0;1mINSERT INTO "tasks" ("created_at", "updated_at") VALUES('2009-06-06 14:01:12', '2009-06-06 14:01:12')[0m
+
+
+Processing TasksController#index (for 0.0.0.0 at 2009-06-06 10:01:12) [GET]
+
+
+Processing TasksController#index (for 0.0.0.0 at 2009-06-06 10:01:16) [GET]
+
+
+Processing TasksController#index (for 0.0.0.0 at 2009-06-06 10:01:20) [GET]
+  [4;36;1mTask Create (0.4ms)[0m   [0;1mINSERT INTO "tasks" ("created_at", "updated_at") VALUES('2009-06-06 14:03:52', '2009-06-06 14:03:52')[0m
+
+
+Processing TasksController#index (for 0.0.0.0 at 2009-06-06 10:03:52) [GET]
+
+
+Processing TasksController#index (for 0.0.0.0 at 2009-06-06 10:03:56) [GET]
+
+
+Processing TasksController#index (for 0.0.0.0 at 2009-06-06 10:04:00) [GET]
+  [4;36;1mTask Create (0.6ms)[0m   [0;1mINSERT INTO "tasks" ("created_at", "updated_at") VALUES('2009-06-06 14:04:13', '2009-06-06 14:04:13')[0m
+
+
+Processing TasksController#index (for 0.0.0.0 at 2009-06-06 10:04:13) [GET]
+  [4;36;1mTask Create (1.6ms)[0m   [0;1mINSERT INTO "tasks" ("created_at", "updated_at") VALUES('2009-06-06 14:05:30', '2009-06-06 14:05:30')[0m
+
+
+Processing TasksController#index (for 0.0.0.0 at 2009-06-06 10:05:30) [GET]
+
+
+Processing TasksController#index (for 0.0.0.0 at 2009-06-06 10:05:34) [GET]
+  [4;36;1mTask Create (3.0ms)[0m   [0;1mINSERT INTO "tasks" ("created_at", "updated_at") VALUES('2009-06-06 14:08:41', '2009-06-06 14:08:41')[0m
+
+
+Processing TasksController#index (for 0.0.0.0 at 2009-06-06 10:08:41) [GET]
+
+
+Processing TasksController#index (for 0.0.0.0 at 2009-06-06 10:08:45) [GET]
+
+
+Processing TasksController#index (for 0.0.0.0 at 2009-06-06 10:08:49) [GET]
+
+
+Processing TasksController#index (for 0.0.0.0 at 2009-06-06 10:08:53) [GET]
+  [4;36;1mTask Create (1.6ms)[0m   [0;1mINSERT INTO "tasks" ("created_at", "updated_at") VALUES('2009-06-06 14:11:24', '2009-06-06 14:11:24')[0m
+
+
+Processing TasksController#index (for 0.0.0.0 at 2009-06-06 10:11:24) [GET]
+
+
+Processing TasksController#index (for 0.0.0.0 at 2009-06-06 10:11:28) [GET]
+
+
+Processing TasksController#index (for 0.0.0.0 at 2009-06-06 10:11:32) [GET]
+
+
+Processing TasksController#index (for 0.0.0.0 at 2009-06-06 10:11:36) [GET]
+  [4;36;1mTask Create (4.0ms)[0m   [0;1mINSERT INTO "tasks" ("created_at", "updated_at") VALUES('2009-06-06 14:13:13', '2009-06-06 14:13:13')[0m
+
+
+Processing TasksController#index (for 0.0.0.0 at 2009-06-06 10:13:13) [GET]
+
+
+Processing TasksController#index (for 0.0.0.0 at 2009-06-06 10:13:17) [GET]
+  [4;36;1mTask Create (1.3ms)[0m   [0;1mINSERT INTO "tasks" ("created_at", "updated_at") VALUES('2009-06-06 14:17:41', '2009-06-06 14:17:41')[0m
+
+
+Processing TasksController#index (for 0.0.0.0 at 2009-06-06 10:17:41) [GET]
+
+
+Processing TasksController#index (for 0.0.0.0 at 2009-06-06 10:17:46) [GET]
+  [4;36;1mTask Create (3.8ms)[0m   [0;1mINSERT INTO "tasks" ("created_at", "updated_at") VALUES('2009-06-06 14:18:05', '2009-06-06 14:18:05')[0m
+
+
+Processing TasksController#index (for 0.0.0.0 at 2009-06-06 10:18:05) [GET]
+  [4;36;1mTask Create (1.4ms)[0m   [0;1mINSERT INTO "tasks" ("created_at", "updated_at") VALUES('2009-06-06 14:22:12', '2009-06-06 14:22:12')[0m
+
+
+Processing TasksController#index (for 0.0.0.0 at 2009-06-06 10:22:12) [GET]
+Rendering tasks/index
+Completed in 8ms (View: 1, DB: 1) | 200 OK [http://test.host/]
+  [4;36;1mTask Create (1.9ms)[0m   [0;1mINSERT INTO "tasks" ("created_at", "updated_at") VALUES('2009-06-06 14:33:10', '2009-06-06 14:33:10')[0m
+
+
+Processing TasksController#index (for 0.0.0.0 at 2009-06-06 10:33:10) [GET]
+Rendering tasks/index
+Completed in 9ms (View: 1, DB: 2) | 200 OK [http://test.host/]
+  [4;36;1mTask Create (6.6ms)[0m   [0;1mINSERT INTO "tasks" ("name", "created_at", "updated_at") VALUES('Test name', '2009-06-06 14:37:29', '2009-06-06 14:37:29')[0m
+
+
+Processing TasksController#index (for 0.0.0.0 at 2009-06-06 10:41:18) [GET]
+  [4;36;1mTask Load (1.8ms)[0m   [0;1mSELECT * FROM "tasks" [0m
+Rendering tasks/index
+Completed in 14ms (View: 1, DB: 2) | 200 OK [http://test.host/]
+  [4;35;1mTask Create (2.0ms)[0m   [0mINSERT INTO "tasks" ("name", "created_at", "updated_at") VALUES('Test name', '2009-06-06 14:41:18', '2009-06-06 14:41:18')[0m
