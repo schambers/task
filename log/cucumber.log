@@ -193,3 +193,380 @@ Processing TasksController#index (for 127.0.0.1 at 2009-06-06 10:41:24) [GET]
   [4;35;1mTask Load (1.2ms)[0m   [0mSELECT * FROM "tasks" [0m
 Rendering tasks/index
 Completed in 17ms (View: 6, DB: 3) | 200 OK [http://www.example.com/]
+  [4;36;1mTask Create (2.0ms)[0m   [0;1mINSERT INTO "tasks" ("name", "created_at", "updated_at") VALUES('Do Something', '2009-06-06 14:48:15', '2009-06-06 14:48:15')[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-06-06 10:48:15) [GET]
+  [4;35;1mTask Load (0.9ms)[0m   [0mSELECT * FROM "tasks" [0m
+Rendering tasks/index
+Completed in 19ms (View: 5, DB: 3) | 200 OK [http://www.example.com/]
+  [4;36;1mTask Create (1.8ms)[0m   [0;1mINSERT INTO "tasks" ("name", "created_at", "updated_at") VALUES('Do Something', '2009-06-06 14:48:27', '2009-06-06 14:48:27')[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-06-06 10:48:27) [GET]
+  [4;35;1mTask Load (1.0ms)[0m   [0mSELECT * FROM "tasks" [0m
+Rendering tasks/index
+Completed in 12ms (View: 4, DB: 3) | 200 OK [http://www.example.com/]
+  [4;36;1mTask Create (1.8ms)[0m   [0;1mINSERT INTO "tasks" ("name", "created_at", "updated_at") VALUES('Do Something', '2009-06-06 14:59:29', '2009-06-06 14:59:29')[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-06-06 10:59:29) [GET]
+  [4;35;1mTask Load (11.8ms)[0m   [0mSELECT * FROM "tasks" [0m
+Rendering tasks/index
+Completed in 24ms (View: 4, DB: 14) | 200 OK [http://www.example.com/]
+  [4;36;1mTask Create (1.5ms)[0m   [0;1mINSERT INTO "tasks" ("name", "created_at", "updated_at") VALUES('Do Something', '2009-06-06 14:59:42', '2009-06-06 14:59:42')[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-06-06 10:59:43) [GET]
+  [4;35;1mTask Load (1.2ms)[0m   [0mSELECT * FROM "tasks" [0m
+Rendering tasks/index
+Completed in 15ms (View: 5, DB: 3) | 200 OK [http://www.example.com/]
+  [4;36;1mTask Create (1.7ms)[0m   [0;1mINSERT INTO "tasks" ("name", "created_at", "updated_at") VALUES('Do Something', '2009-06-06 15:02:06', '2009-06-06 15:02:06')[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-06-06 11:02:06) [GET]
+  [4;35;1mTask Load (0.9ms)[0m   [0mSELECT * FROM "tasks" [0m
+Rendering tasks/index
+Completed in 13ms (View: 4, DB: 3) | 200 OK [http://www.example.com/]
+  [4;36;1mTask Create (1.5ms)[0m   [0;1mINSERT INTO "tasks" ("name", "created_at", "updated_at") VALUES('Do Something', '2009-06-06 15:02:18', '2009-06-06 15:02:18')[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-06-06 11:02:18) [GET]
+  [4;35;1mTask Load (0.6ms)[0m   [0mSELECT * FROM "tasks" [0m
+Rendering tasks/index
+Completed in 17ms (View: 5, DB: 2) | 200 OK [http://www.example.com/]
+  [4;36;1mTask Create (1.4ms)[0m   [0;1mINSERT INTO "tasks" ("name", "created_at", "updated_at") VALUES('Do Something', '2009-06-06 15:02:24', '2009-06-06 15:02:24')[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-06-06 11:02:24) [GET]
+  [4;35;1mTask Load (1.2ms)[0m   [0mSELECT * FROM "tasks" [0m
+Rendering tasks/index
+Completed in 14ms (View: 5, DB: 3) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-06-06 11:06:02) [GET]
+  [4;36;1mTask Load (1.0ms)[0m   [0;1mSELECT * FROM "tasks" [0m
+Rendering tasks/index
+Completed in 16ms (View: 4, DB: 1) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-06-06 14:02:35) [GET]
+  [4;36;1mTask Load (0.7ms)[0m   [0;1mSELECT * FROM "tasks" [0m
+Rendering tasks/index
+ERROR: compiling _run_erb_app47views47tasks47index46html46erb RAISED compile error
+/home/schambers/Projects/tasks/app/views/tasks/index.html.erb:4: syntax error, unexpected '<', expecting ')'
+  <a href="">New Task</a></li>
+   ^
+/home/schambers/Projects/tasks/app/views/tasks/index.html.erb:4: syntax error, unexpected tCONSTANT, expecting kDO or '{' or '('
+  <a href="">New Task</a></li>
+                     ^
+/home/schambers/Projects/tasks/app/views/tasks/index.html.erb:4: unknown regexp option - l
+/home/schambers/Projects/tasks/app/views/tasks/index.html.erb:5: syntax error, unexpected '<'
+</ul>
+ ^
+/home/schambers/Projects/tasks/app/views/tasks/index.html.erb:10: unknown regexp option - l
+/home/schambers/Projects/tasks/app/views/tasks/index.html.erb:10: unmatched ): /ul>
+
+
+<ul>
+<% for task in @tasks ).to_s)
+@output_buffer.concat "  <li>"; @output_buffer.concat(( task.name ).to_s); @output_buffer.concat "</
+/home/schambers/Projects/tasks/app/views/tasks/index.html.erb:10: syntax error, unexpected $undefined
+... @output_buffer.concat "</li>\n"
+                              ^
+/home/schambers/Projects/tasks/app/views/tasks/index.html.erb:12: unterminated string meets end of file
+/home/schambers/Projects/tasks/app/views/tasks/index.html.erb:12: syntax error, unexpected tSTRING_END, expecting tSTRING_CONTENT or tREGEXP_END or tSTRING_DBEG or tSTRING_DVAR
+Function body:           def _run_erb_app47views47tasks47index46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<ul>\n  <li>\n  "
+
+; @output_buffer.concat(( link_to "New Task", :action => "new"
+  <a href="">New Task</a></li>
+</ul>
+
+
+<ul>
+<% for task in @tasks ).to_s)
+@output_buffer.concat "  <li>"; @output_buffer.concat(( task.name ).to_s); @output_buffer.concat "</li>\n"
+;  end 
+@output_buffer.concat "</ul>\n"
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /home/schambers/Projects/tasks/app/views/tasks/index.html.erb:12:in `compile!'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:61:in `compile'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:28:in `render_without_template_tracking'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/test_case.rb:20:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/template.rb:194:in `render_template'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:260:in `render_without_mock_proxy'
+/usr/lib/ruby/gems/1.8/gems/rspec-rails-1.2.6/lib/spec/rails/extensions/action_view/base.rb:27:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1241:in `render_for_file'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:937:in `render_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1317:in `default_render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1323:in `perform_action_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:617:in `call_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/flash.rb:141:in `perform_action'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `process_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:606:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:391:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:386:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:433:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:88:in `dispatch'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:111:in `_call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:82:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lint.rb:47:in `_call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lint.rb:35:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/integration.rb:320:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/integration.rb:196:in `get'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/integration.rb:498:in `__send__'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/integration.rb:498:in `get'
+/usr/lib/ruby/gems/1.8/gems/webrat-0.4.4/lib/webrat/rails.rb:70:in `send'
+/usr/lib/ruby/gems/1.8/gems/webrat-0.4.4/lib/webrat/rails.rb:70:in `do_request'
+/usr/lib/ruby/gems/1.8/gems/webrat-0.4.4/lib/webrat/rails.rb:35:in `get'
+/usr/lib/ruby/gems/1.8/gems/webrat-0.4.4/lib/webrat/core/session.rb:104:in `send'
+/usr/lib/ruby/gems/1.8/gems/webrat-0.4.4/lib/webrat/core/session.rb:104:in `request_page'
+/usr/lib/ruby/gems/1.8/gems/webrat-0.4.4/lib/webrat/core/session.rb:205:in `visit'
+(eval):2:in `visit'
+./features/step_definitions/webrat_steps.rb:7
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/core_ext/instance_exec.rb:20:in `instance_exec'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/core_ext/instance_exec.rb:20:in `cucumber_instance_exec'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/core_ext/instance_exec.rb:38:in `cucumber_run_with_backtrace_filtering'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/core_ext/instance_exec.rb:10:in `cucumber_instance_exec'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/step_definition.rb:105:in `invoke'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/step_match.rb:16:in `invoke'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/ast/step_invocation.rb:36:in `invoke'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/ast/step_invocation.rb:22:in `accept'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/ast/visitor.rb:78:in `visit_step'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/formatter/pretty.rb:129:in `visit_step'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/ast/step_collection.rb:14:in `accept'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/ast/step_collection.rb:13:in `each'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/ast/step_collection.rb:13:in `accept'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/ast/visitor.rb:74:in `visit_steps'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/ast/scenario.rb:31:in `accept'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/step_mother.rb:260:in `before_and_after'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/ast/scenario.rb:30:in `accept'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/ast/visitor.rb:45:in `visit_feature_element'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/formatter/pretty.rb:81:in `visit_feature_element'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/ast/feature.rb:24:in `accept'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/ast/feature.rb:23:in `each'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/ast/feature.rb:23:in `accept'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/ast/visitor.rb:23:in `visit_feature'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/formatter/pretty.rb:42:in `visit_feature'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/ast/features.rb:24:in `accept'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/ast/features.rb:23:in `each'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/ast/features.rb:23:in `accept'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/ast/visitor.rb:19:in `visit_features'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/formatter/pretty.rb:26:in `visit_features'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/broadcaster.rb:9:in `__send__'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/broadcaster.rb:9:in `method_missing'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/broadcaster.rb:8:in `map'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/broadcaster.rb:8:in `method_missing'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/cli/main.rb:54:in `execute!'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/cli/main.rb:25:in `execute'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/cucumber:9
+/usr/bin/cucumber:19:in `load'
+/usr/bin/cucumber:19
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-06-06 14:02:35) [GET]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-06-07 17:24:27) [GET]
+  [4;36;1mTask Load (1.5ms)[0m   [0;1mSELECT * FROM "tasks" [0m
+Rendering tasks/index
+ERROR: compiling _run_erb_app47views47tasks47index46html46erb RAISED compile error
+/home/schambers/Projects/tasks/app/views/tasks/index.html.erb:3: syntax error, unexpected tGVAR, expecting ')'
+/home/schambers/Projects/tasks/app/views/tasks/index.html.erb:4: syntax error, unexpected tCONSTANT, expecting kDO or '{' or '('
+  <a href="">New Task</a></li>
+                     ^
+/home/schambers/Projects/tasks/app/views/tasks/index.html.erb:4: unknown regexp option - l
+/home/schambers/Projects/tasks/app/views/tasks/index.html.erb:5: syntax error, unexpected '<'
+</ul>
+ ^
+/home/schambers/Projects/tasks/app/views/tasks/index.html.erb:10: unknown regexp option - l
+/home/schambers/Projects/tasks/app/views/tasks/index.html.erb:10: unmatched ): /ul>
+
+
+<ul>
+<% for task in @tasks ).to_s)
+@output_buffer.concat "  <li>"; @output_buffer.concat(( task.name ).to_s); @output_buffer.concat "</
+/home/schambers/Projects/tasks/app/views/tasks/index.html.erb:10: syntax error, unexpected $undefined
+... @output_buffer.concat "</li>\n"
+                              ^
+/home/schambers/Projects/tasks/app/views/tasks/index.html.erb:12: unterminated string meets end of file
+/home/schambers/Projects/tasks/app/views/tasks/index.html.erb:12: syntax error, unexpected tSTRING_END, expecting tSTRING_CONTENT or tREGEXP_END or tSTRING_DBEG or tSTRING_DVAR
+Function body:           def _run_erb_app47views47tasks47index46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<ul>\n  <li>\n  "
+
+; @output_buffer.concat(( link_to "New Task", :action => "new" $>
+  <a href="">New Task</a></li>
+</ul>
+
+
+<ul>
+<% for task in @tasks ).to_s)
+@output_buffer.concat "  <li>"; @output_buffer.concat(( task.name ).to_s); @output_buffer.concat "</li>\n"
+;  end 
+@output_buffer.concat "</ul>\n"
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /home/schambers/Projects/tasks/app/views/tasks/index.html.erb:12:in `compile!'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:61:in `compile'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:28:in `render_without_template_tracking'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/test_case.rb:20:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/template.rb:194:in `render_template'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:260:in `render_without_mock_proxy'
+/usr/lib/ruby/gems/1.8/gems/rspec-rails-1.2.6/lib/spec/rails/extensions/action_view/base.rb:27:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1241:in `render_for_file'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:937:in `render_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1317:in `default_render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1323:in `perform_action_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:617:in `call_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/flash.rb:141:in `perform_action'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `process_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:606:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:391:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:386:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:433:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:88:in `dispatch'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:111:in `_call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:82:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lint.rb:47:in `_call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lint.rb:35:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/integration.rb:320:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/integration.rb:196:in `get'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/integration.rb:498:in `__send__'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/integration.rb:498:in `get'
+/usr/lib/ruby/gems/1.8/gems/webrat-0.4.4/lib/webrat/rails.rb:70:in `send'
+/usr/lib/ruby/gems/1.8/gems/webrat-0.4.4/lib/webrat/rails.rb:70:in `do_request'
+/usr/lib/ruby/gems/1.8/gems/webrat-0.4.4/lib/webrat/rails.rb:35:in `get'
+/usr/lib/ruby/gems/1.8/gems/webrat-0.4.4/lib/webrat/core/session.rb:104:in `send'
+/usr/lib/ruby/gems/1.8/gems/webrat-0.4.4/lib/webrat/core/session.rb:104:in `request_page'
+/usr/lib/ruby/gems/1.8/gems/webrat-0.4.4/lib/webrat/core/session.rb:205:in `visit'
+(eval):2:in `visit'
+./features/step_definitions/webrat_steps.rb:7
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/core_ext/instance_exec.rb:20:in `instance_exec'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/core_ext/instance_exec.rb:20:in `cucumber_instance_exec'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/core_ext/instance_exec.rb:38:in `cucumber_run_with_backtrace_filtering'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/core_ext/instance_exec.rb:10:in `cucumber_instance_exec'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/step_definition.rb:105:in `invoke'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/step_match.rb:16:in `invoke'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/ast/step_invocation.rb:36:in `invoke'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/ast/step_invocation.rb:22:in `accept'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/ast/visitor.rb:78:in `visit_step'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/formatter/pretty.rb:129:in `visit_step'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/ast/step_collection.rb:14:in `accept'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/ast/step_collection.rb:13:in `each'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/ast/step_collection.rb:13:in `accept'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/ast/visitor.rb:74:in `visit_steps'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/ast/scenario.rb:31:in `accept'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/step_mother.rb:260:in `before_and_after'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/ast/scenario.rb:30:in `accept'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/ast/visitor.rb:45:in `visit_feature_element'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/formatter/pretty.rb:81:in `visit_feature_element'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/ast/feature.rb:24:in `accept'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/ast/feature.rb:23:in `each'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/ast/feature.rb:23:in `accept'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/ast/visitor.rb:23:in `visit_feature'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/formatter/pretty.rb:42:in `visit_feature'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/ast/features.rb:24:in `accept'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/ast/features.rb:23:in `each'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/ast/features.rb:23:in `accept'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/ast/visitor.rb:19:in `visit_features'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/formatter/pretty.rb:26:in `visit_features'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/broadcaster.rb:9:in `__send__'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/broadcaster.rb:9:in `method_missing'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/broadcaster.rb:8:in `map'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/broadcaster.rb:8:in `method_missing'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/cli/main.rb:54:in `execute!'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/../lib/cucumber/cli/main.rb:25:in `execute'
+/usr/lib/ruby/gems/1.8/gems/cucumber-0.3.10/bin/cucumber:9
+/usr/bin/cucumber:19:in `load'
+/usr/bin/cucumber:19
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-06-07 17:24:27) [GET]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-06-07 17:25:19) [GET]
+  [4;36;1mTask Load (0.9ms)[0m   [0;1mSELECT * FROM "tasks" [0m
+Rendering tasks/index
+Completed in 24ms (View: 2, DB: 1) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /tasks/new with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing TasksController#new (for 127.0.0.1 at 2009-06-07 17:25:19) [GET]
+
+
+Processing ApplicationController#new (for 127.0.0.1 at 2009-06-07 17:25:19) [GET]

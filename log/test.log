@@ -148,3 +148,24 @@ Processing TasksController#index (for 0.0.0.0 at 2009-06-06 10:41:18) [GET]
 Rendering tasks/index
 Completed in 14ms (View: 1, DB: 2) | 200 OK [http://test.host/]
   [4;35;1mTask Create (2.0ms)[0m   [0mINSERT INTO "tasks" ("name", "created_at", "updated_at") VALUES('Test name', '2009-06-06 14:41:18', '2009-06-06 14:41:18')[0m
+
+
+Processing TasksController#index (for 0.0.0.0 at 2009-06-06 10:48:21) [GET]
+  [4;36;1mTask Load (1.1ms)[0m   [0;1mSELECT * FROM "tasks" [0m
+Rendering tasks/index
+Completed in 10ms (View: 1, DB: 1) | 200 OK [http://test.host/]
+  [4;35;1mTask Create (2.8ms)[0m   [0mINSERT INTO "tasks" ("name", "created_at", "updated_at") VALUES('Test name', '2009-06-06 14:48:21', '2009-06-06 14:48:21')[0m
+
+
+Processing TasksController#index (for 0.0.0.0 at 2009-06-06 10:59:36) [GET]
+  [4;36;1mTask Load (2.2ms)[0m   [0;1mSELECT * FROM "tasks" [0m
+Rendering tasks/index
+Completed in 14ms (View: 1, DB: 2) | 200 OK [http://test.host/]
+  [4;35;1mTask Create (1.8ms)[0m   [0mINSERT INTO "tasks" ("name", "created_at", "updated_at") VALUES('Test name', '2009-06-06 14:59:36', '2009-06-06 14:59:36')[0m
+
+
+Processing TasksController#index (for 0.0.0.0 at 2009-06-06 11:02:11) [GET]
+  [4;36;1mTask Load (1.5ms)[0m   [0;1mSELECT * FROM "tasks" [0m
+Rendering tasks/index
+Completed in 12ms (View: 1, DB: 1) | 200 OK [http://test.host/]
+  [4;35;1mTask Create (3.4ms)[0m   [0mINSERT INTO "tasks" ("name", "created_at", "updated_at") VALUES('Test name', '2009-06-06 15:02:11', '2009-06-06 15:02:11')[0m
