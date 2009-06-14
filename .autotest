@@ -5,6 +5,7 @@ Autotest.add_hook :initialize do |at|
 end
 
 module SpecCucumberNotify
+
   class Config
  
     class << self
@@ -21,14 +22,12 @@ module SpecCucumberNotify
       end
     end
  
-    #self.images_directory = "#{File.dirname(__FILE__)}/.autotest_images/"
     self.images_directory = "/home/schambers/.autotest_images/"
     self.expiration_in_seconds = 5
     self.failure = "Features Failure"
     self.success = "Features Success"
     self.pending = "Features Pending"
-    self.undefined = "Features Undefined"
- 
+    self.undefined = "Features Undefined" 
   end
   
   Autotest.add_hook :red do |at|
