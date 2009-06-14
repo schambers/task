@@ -1,3 +1,4 @@
+db/database.yml
 log/*.log
 tmp/**/*
 doc/api
