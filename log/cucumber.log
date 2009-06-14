@@ -1270,3 +1270,200 @@ Processing TasksController#create (for 127.0.0.1 at 2009-06-14 07:30:51) [POST]
   [4;35;1mTask Create (0.3ms)[0m   [0mINSERT INTO "tasks" ("name", "created_at", "updated_at") VALUES('do some task', '2009-06-14 11:30:51', '2009-06-14 11:30:51')[0m
 Rendering tasks/create
 Completed in 29ms (View: 5, DB: 0) | 200 OK [http://www.example.com/tasks]
+  [4;36;1mTask Create (1.4ms)[0m   [0;1mINSERT INTO "tasks" ("name", "created_at", "updated_at") VALUES('Do Something', '2009-06-14 11:40:31', '2009-06-14 11:40:31')[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-06-14 07:40:31) [GET]
+  [4;35;1mTask Load (1.1ms)[0m   [0mSELECT * FROM "tasks" [0m
+Rendering tasks/index
+Completed in 41ms (View: 31, DB: 2) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-06-14 07:40:31) [GET]
+  [4;36;1mTask Load (0.6ms)[0m   [0;1mSELECT * FROM "tasks" [0m
+Rendering tasks/index
+Completed in 4ms (View: 2, DB: 1) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /tasks/new with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing TasksController#new (for 127.0.0.1 at 2009-06-14 07:40:31) [GET]
+Rendering tasks/new
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://www.example.com/tasks/new]
+  [4;36;1mTask Create (1.4ms)[0m   [0;1mINSERT INTO "tasks" ("name", "created_at", "updated_at") VALUES('Do Something', '2009-06-14 11:40:47', '2009-06-14 11:40:47')[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-06-14 07:40:47) [GET]
+  [4;35;1mTask Load (2.8ms)[0m   [0mSELECT * FROM "tasks" [0m
+Rendering tasks/index
+Completed in 22ms (View: 7, DB: 4) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-06-14 07:40:47) [GET]
+  [4;36;1mTask Load (0.7ms)[0m   [0;1mSELECT * FROM "tasks" [0m
+Rendering tasks/index
+Completed in 5ms (View: 2, DB: 1) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /tasks/new with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing TasksController#new (for 127.0.0.1 at 2009-06-14 07:40:47) [GET]
+Rendering tasks/new
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://www.example.com/tasks/new]
+  [4;36;1mTask Create (1.4ms)[0m   [0;1mINSERT INTO "tasks" ("name", "created_at", "updated_at") VALUES('Do Something', '2009-06-14 11:41:11', '2009-06-14 11:41:11')[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-06-14 07:41:11) [GET]
+  [4;35;1mTask Load (1.1ms)[0m   [0mSELECT * FROM "tasks" [0m
+Rendering tasks/index
+Completed in 18ms (View: 6, DB: 3) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-06-14 07:41:11) [GET]
+  [4;36;1mTask Load (0.6ms)[0m   [0;1mSELECT * FROM "tasks" [0m
+Rendering tasks/index
+Completed in 4ms (View: 2, DB: 1) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /tasks/new with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing TasksController#new (for 127.0.0.1 at 2009-06-14 07:41:11) [GET]
+Rendering tasks/new
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://www.example.com/tasks/new]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-06-14 07:45:00) [GET]
+  [4;36;1mTask Load (2.9ms)[0m   [0;1mSELECT * FROM "tasks" [0m
+Rendering tasks/index
+Completed in 38ms (View: 6, DB: 3) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /tasks/new with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing TasksController#new (for 127.0.0.1 at 2009-06-14 07:45:00) [GET]
+Rendering tasks/new
+Completed in 26ms (View: 21, DB: 0) | 200 OK [http://www.example.com/tasks/new]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-06-14 07:45:08) [GET]
+  [4;36;1mTask Load (3.2ms)[0m   [0;1mSELECT * FROM "tasks" [0m
+Rendering tasks/index
+Completed in 22ms (View: 6, DB: 3) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /tasks/new with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing TasksController#new (for 127.0.0.1 at 2009-06-14 07:45:08) [GET]
+Rendering tasks/new
+Completed in 15ms (View: 11, DB: 0) | 200 OK [http://www.example.com/tasks/new]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-06-14 07:46:22) [GET]
+  [4;36;1mTask Load (2.3ms)[0m   [0;1mSELECT * FROM "tasks" [0m
+Rendering tasks/index
+Completed in 20ms (View: 7, DB: 2) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /tasks/new with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing TasksController#new (for 127.0.0.1 at 2009-06-14 07:46:22) [GET]
+Rendering tasks/new
+Completed in 16ms (View: 12, DB: 0) | 200 OK [http://www.example.com/tasks/new]
+REQUESTING PAGE: POST /tasks with {"commit"=>"Create Task", "task"=>{"name"=>"do some task", "points"=>"5"}} and HTTP headers {"HTTP_REFERER"=>"/tasks/new"}
+
+
+Processing TasksController#create (for 127.0.0.1 at 2009-06-14 07:46:22) [POST]
+  Parameters: {"commit"=>"Create Task", "task"=>{"name"=>"do some task", "points"=>"5"}}
+  [4;35;1mTask Create (2.0ms)[0m   [0mINSERT INTO "tasks" ("name", "created_at", "updated_at", "points") VALUES('do some task', '2009-06-14 11:46:22', '2009-06-14 11:46:22', 5)[0m
+Rendering tasks/create
+Completed in 25ms (View: 2, DB: 2) | 200 OK [http://www.example.com/tasks]
+  [4;36;1mTask Create (2.8ms)[0m   [0;1mINSERT INTO "tasks" ("name", "created_at", "updated_at", "points") VALUES('Do Something', '2009-06-14 11:46:37', '2009-06-14 11:46:37', NULL)[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-06-14 07:46:37) [GET]
+  [4;35;1mTask Load (1.9ms)[0m   [0mSELECT * FROM "tasks" [0m
+Rendering tasks/index
+Completed in 17ms (View: 6, DB: 5) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-06-14 07:46:37) [GET]
+  [4;36;1mTask Load (0.7ms)[0m   [0;1mSELECT * FROM "tasks" [0m
+Rendering tasks/index
+Completed in 5ms (View: 3, DB: 1) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /tasks/new with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing TasksController#new (for 127.0.0.1 at 2009-06-14 07:46:37) [GET]
+Rendering tasks/new
+Completed in 11ms (View: 6, DB: 0) | 200 OK [http://www.example.com/tasks/new]
+REQUESTING PAGE: POST /tasks with {"commit"=>"Create Task", "task"=>{"name"=>"do some task", "points"=>"5"}} and HTTP headers {"HTTP_REFERER"=>"/tasks/new"}
+
+
+Processing TasksController#create (for 127.0.0.1 at 2009-06-14 07:46:37) [POST]
+  Parameters: {"commit"=>"Create Task", "task"=>{"name"=>"do some task", "points"=>"5"}}
+  [4;35;1mTask Create (1.9ms)[0m   [0mINSERT INTO "tasks" ("name", "created_at", "updated_at", "points") VALUES('do some task', '2009-06-14 11:46:37', '2009-06-14 11:46:37', 5)[0m
+Rendering tasks/create
+Completed in 15ms (View: 5, DB: 2) | 200 OK [http://www.example.com/tasks]
+  [4;36;1mTask Create (2.1ms)[0m   [0;1mINSERT INTO "tasks" ("name", "created_at", "updated_at", "points") VALUES('Do Something', '2009-06-14 11:48:49', '2009-06-14 11:48:49', NULL)[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-06-14 07:48:49) [GET]
+  [4;35;1mTask Load (1.2ms)[0m   [0mSELECT * FROM "tasks" [0m
+Rendering tasks/index
+Completed in 16ms (View: 7, DB: 3) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-06-14 07:48:49) [GET]
+  [4;36;1mTask Load (1.8ms)[0m   [0;1mSELECT * FROM "tasks" [0m
+Rendering tasks/index
+Completed in 5ms (View: 2, DB: 2) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /tasks/new with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing TasksController#new (for 127.0.0.1 at 2009-06-14 07:48:49) [GET]
+Rendering tasks/new
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://www.example.com/tasks/new]
+REQUESTING PAGE: POST /tasks with {"commit"=>"Create Task", "task"=>{"name"=>"do some task", "points"=>"5"}} and HTTP headers {"HTTP_REFERER"=>"/tasks/new"}
+
+
+Processing TasksController#create (for 127.0.0.1 at 2009-06-14 07:48:49) [POST]
+  Parameters: {"commit"=>"Create Task", "task"=>{"name"=>"do some task", "points"=>"5"}}
+  [4;35;1mTask Create (2.2ms)[0m   [0mINSERT INTO "tasks" ("name", "created_at", "updated_at", "points") VALUES('do some task', '2009-06-14 11:48:49', '2009-06-14 11:48:49', 5)[0m
+Rendering tasks/create
+Completed in 10ms (View: 3, DB: 2) | 200 OK [http://www.example.com/tasks]
+  [4;36;1mTask Create (3.1ms)[0m   [0;1mINSERT INTO "tasks" ("name", "created_at", "updated_at", "points") VALUES('Do Something', '2009-06-14 11:49:02', '2009-06-14 11:49:02', NULL)[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-06-14 07:49:02) [GET]
+  [4;35;1mTask Load (1.2ms)[0m   [0mSELECT * FROM "tasks" [0m
+Rendering tasks/index
+Completed in 20ms (View: 7, DB: 4) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing TasksController#index (for 127.0.0.1 at 2009-06-14 07:49:02) [GET]
+  [4;36;1mTask Load (0.6ms)[0m   [0;1mSELECT * FROM "tasks" [0m
+Rendering tasks/index
+Completed in 4ms (View: 2, DB: 1) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /tasks/new with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing TasksController#new (for 127.0.0.1 at 2009-06-14 07:49:02) [GET]
+Rendering tasks/new
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://www.example.com/tasks/new]
+REQUESTING PAGE: POST /tasks with {"commit"=>"Create Task", "task"=>{"name"=>"do some task", "points"=>"5"}} and HTTP headers {"HTTP_REFERER"=>"/tasks/new"}
+
+
+Processing TasksController#create (for 127.0.0.1 at 2009-06-14 07:49:02) [POST]
+  Parameters: {"commit"=>"Create Task", "task"=>{"name"=>"do some task", "points"=>"5"}}
+  [4;35;1mTask Create (4.7ms)[0m   [0mINSERT INTO "tasks" ("name", "created_at", "updated_at", "points") VALUES('do some task', '2009-06-14 11:49:02', '2009-06-14 11:49:02', 5)[0m
+Rendering tasks/create
+Completed in 12ms (View: 3, DB: 5) | 200 OK [http://www.example.com/tasks]

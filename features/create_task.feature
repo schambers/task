@@ -8,5 +8,6 @@ Feature: Creating a Task
     Given I am on the homepage
     When I follow "New Task"
     And I fill in "task_name" with "do some task"
+    And I fill in "task_points" with "5"
     And I press "Create Task"
     Then I should see "do some task"
