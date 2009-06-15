@@ -2,7 +2,7 @@
 <% form_for :task, @task, :url => { :action => "create" } do |f| -%>
   <p><%= f.error_messages %></p>
 
-  <p><%= f.text_field :name %></p>
-  <p><%= f.text_field :points %></p>
+  <p><%= f.label :name %>: <%= f.text_field :name %></p>
+  <p><%= f.label :points %>: <%= f.text_field :points %></p>
   <%= submit_tag "Create Task" %>
 <% end %>
