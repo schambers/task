@@ -8,6 +8,12 @@ class TasksController < ApplicationController
   end
 
   def create
-    @task = Task.create(params[:task])
+    @task = Task.new(params[:task])
+    
+    if !@task.save
+      
+      render :action => "new"
+    end
+    
   end
 end
