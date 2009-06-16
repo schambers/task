@@ -5,6 +5,6 @@
 
 <ul>
 <% for task in @tasks -%>
-  <li><%= task.name %>, Points: <%= task.points %></li>
+  <li><%= task.points %> pts. - <%= link_to "done", :action => "done" %> - <%= task.name %></li>
 <% end -%>
 </ul>

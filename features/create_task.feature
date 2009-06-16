@@ -11,6 +11,7 @@ Feature: Creating a Task
     And I fill in "task_points" with "5"
     And I press "Create Task"
     Then I should see "do some task"
+    And I should see "back to task list"
 
   Scenario: Creating an invalid task
     Given I am on the homepage
