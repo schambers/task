@@ -2,7 +2,6 @@ require File.expand_path(File.dirname(__FILE__) + '/../spec_helper')
 require 'mocha'
 
 describe TasksController, "When creating a valid Task" do
-
   before(:each) do
     @task = mock_model(Task)
   end
@@ -25,16 +24,23 @@ describe TasksController, "When creating a valid Task" do
     post :create
     assigns[:task].should_not be_nil
   end
-  
+end
+
+describe TasksController, "When marking a task as done" do
+  it "should respond to done action" do
+    Task.any_instance.stubs(:save).returns(true)
+    
+    get :done
+    response.should render_template(:index)
+  end
 end
 
 describe TasksController, "When creating an invalid Task" do
-
   it "should redirect to new on validation errors" do
     Task.any_instance.stubs(:save).returns(false)
     
     post :create
     response.should render_template(:new)
   end
-
 end
+

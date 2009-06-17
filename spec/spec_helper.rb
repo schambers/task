@@ -2,9 +2,9 @@
 # from the project root directory.
 ENV["RAILS_ENV"] ||= 'test'
 require File.dirname(__FILE__) + "/../config/environment" unless defined?(RAILS_ROOT)
-#require "/config/environment" unless defined?(RAILS_ROOT)
 require 'spec/autorun'
 require 'spec/rails'
+require File.dirname(__FILE__) + "/factories"
 
 Spec::Runner.configure do |config|
   # If you're not using ActiveRecord you should remove these

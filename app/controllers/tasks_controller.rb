@@ -11,9 +11,11 @@ class TasksController < ApplicationController
     @task = Task.new(params[:task])
     
     if !@task.save
-      
       render :action => "new"
     end
-    
+  end
+  
+  def done
+    redirect_to :action => "index"
   end
 end

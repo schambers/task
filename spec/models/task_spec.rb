@@ -12,28 +12,21 @@ describe Task, "When created" do
     @task = Task.new(@valid_attributes)
     @task.save!
   end
-
-end
-
-describe Task, "When working with an invalid Task" do
   
-  before(:each) do
-    @task = Task.new
+  it "should return proper status if set to done" do
+    task = Task.new(:status => :done, :name => "test name", :points => 1)
+    task.status.should == :done
   end
   
-  it "should not be valid" do
-    @task.should_not be_valid
+  it "should return proper status if set to active" do
+    task = Task.new(:status => :done)
+    task.status.should == :done
+    task.status = :active
+    task.status.should == :active
   end
   
-  it "should validate name" do
-    @task = Task.new
-    @task.should_not be_valid
-    @task.errors.on(:name).should == "can't be blank"
+  it "should have status set to active by default" do
+    task = Task.new
+    task.status.should == :active
   end
-  
-  it "should validate points" do
-    @task.should_not be_valid
-    @task.errors.on(:points).should == "can't be blank"
-  end
-  
 end
