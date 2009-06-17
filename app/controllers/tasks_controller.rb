@@ -16,6 +16,7 @@ class TasksController < ApplicationController
   end
   
   def done
+    Task.find(params[:id].to_i)
     redirect_to :action => "index"
   end
 end

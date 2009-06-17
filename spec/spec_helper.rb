@@ -6,6 +6,7 @@ require 'spec/autorun'
 require 'spec/rails'
 require File.dirname(__FILE__) + "/factories"
 
+
 Spec::Runner.configure do |config|
   # If you're not using ActiveRecord you should remove these
   # lines, delete config/database.yml and disable :active_record
