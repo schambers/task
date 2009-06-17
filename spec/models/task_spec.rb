@@ -18,13 +18,6 @@ describe Task, "When created" do
     task.status.should == :done
   end
   
-  it "should return proper status if set to active" do
-    task = Task.new(:status => :done)
-    task.status.should == :done
-    task.status = :active
-    task.status.should == :active
-  end
-  
   it "should have status set to active by default" do
     task = Task.new
     task.status.should == :active
