@@ -5,5 +5,5 @@ Factory.define :task do |f|
 end
 
 Factory.define :status do |f|
-  f.status "Active"
+  f.name "Active"
 end

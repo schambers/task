@@ -8,7 +8,6 @@ describe Task, "When created" do
   
   it "should have status set to active by default" do
     task = Factory.build(:task)
-    task.status.id.should == 1
-    task.status.status.should == "Active"
+    task.status.name.should == "Active"
   end
 end

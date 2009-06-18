@@ -1,6 +1,6 @@
 module DataSeeder
   def self.seed
-    Status.create(:status => "Active")
-    Status.create(:status => "Done")
+    Status.create(:name => "Active")
+    Status.create(:name => "Done")
   end
 end

@@ -1,7 +1,7 @@
 class TasksController < ApplicationController
   def index
-    done_status = Status.find(:first, :conditions => ["status = 'Active'"])
-    @tasks = Task.find(:all, :conditions => ["status_id = ?", done_status.id])
+    active_status = Status.find(:first, :conditions => ["name = 'Active'"])
+    @tasks = Task.find(:all, :conditions => ["status_id = ?", active_status.id])
   end
   
   def new
@@ -17,7 +17,11 @@ class TasksController < ApplicationController
   end
   
   def done
-    Task.find(params[:id].to_i)
+    done_status = Status.find(:first, :conditions => ["name = 'Done'"])
+    task = Task.find(params[:id].to_i)
+    task.status = done_status
+    
+    task.save
     redirect_to :action => "index"
   end
 end

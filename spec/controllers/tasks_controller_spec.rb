@@ -9,7 +9,7 @@ describe TasksController, "When getting a full list of Tasks" do
   it "should respond to index action" do
     status = mock()
     status.stubs(:id).returns(1)
-    Status.expects(:find).with(:first, {:conditions => ["status = 'Active'"]}).returns(status)
+    Status.expects(:find).with(:first, {:conditions => ["name = 'Active'"]}).returns(status)
     Task.expects(:find).with(:all, {:conditions => ["status_id = ?", status.id]}).returns(@task)
     
     get :index
@@ -25,7 +25,7 @@ describe TasksController, "When creating a valid Task" do
   it "should not show done tasks on index" do
     status = mock()
     status.stubs(:id).returns(1)
-    Status.expects(:find).with(:first, :conditions => ["status = 'Active'"]).returns(status)
+    Status.expects(:find).with(:first, :conditions => ["name = 'Active'"]).returns(status)
     Task.expects(:find).with(:all, :conditions => ["status_id = ?", status.id]).returns(mock)
     
     get :index
@@ -35,7 +35,7 @@ describe TasksController, "When creating a valid Task" do
   
   it "should respond to the new action" do
     Task.stubs(:new).returns(@task)
-
+    
     get :new
     
     assigns[:task].should eql(@task)
@@ -44,7 +44,7 @@ describe TasksController, "When creating a valid Task" do
   it "should create a task from the create action" do
     Task.stubs(:new).returns(@task)
     @task.expects(:save).returns(true)
-
+    
     post :create
     
     assigns[:task].should eql(@task)
@@ -55,21 +55,21 @@ describe TasksController, "When marking a task as done" do
   before :each do
     Task.stubs(:save).returns(true)
     @params = {:id => 1}
+
+    @task = mock()
+    @status = mock()
+    
+    Status.expects(:find).with(:first, :conditions => ["name = 'Done'"]).returns(@status)
+    Task.expects(:find).with(1).returns(@task)
+    @task.expects(:status=).with(@status)
+    @task.expects(:save).returns(true)
   end
 
-  it "should respond to done action" do
-    Task.expects(:find).with(1).returns(mock())
-    
+  it "should set task status to done" do
     get :done, :id => 1
     
     response.should be_redirect
     response.should redirect_to(root_path)
-  end
-
-  it "should set task status to done" do
-    Task.expects(:find).with(1).returns(mock())
-    
-    get :done, :id => 1
   end
 end
 

@@ -12,7 +12,7 @@
 ActiveRecord::Schema.define(:version => 20090617123700) do
 
   create_table "statuses", :force => true do |t|
-    t.string "status"
+    t.string "name"
   end
 
   create_table "tasks", :force => true do |t|
