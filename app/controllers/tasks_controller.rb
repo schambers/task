@@ -1,6 +1,7 @@
 class TasksController < ApplicationController
   def index
-    @tasks = Task.find(:all)
+    done_status = Status.find(:first, :conditions => ["status = 'Active'"])
+    @tasks = Task.find(:all, :conditions => ["status_id = ?", done_status.id])
   end
   
   def new

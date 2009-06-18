@@ -16,9 +16,9 @@ ActiveRecord::Schema.define(:version => 20090617123700) do
   end
 
   create_table "tasks", :force => true do |t|
+    t.integer  "status_id",  :default => 1
     t.string   "name"
     t.integer  "points"
-    t.string   "status"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

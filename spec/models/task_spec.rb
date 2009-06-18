@@ -6,9 +6,9 @@ describe Task, "When created" do
     task.name.should == "new task"
   end
   
-  it "should have status set to active by default" do
-    task = Factory.build(:task)
-    task.status.id.should == 1
-    task.status.status.should == "Active"
-  end
+#  it "should have status set to active by default" do
+#    task = Factory.build(:task)
+#    task.status.id.should == 1
+#    task.status.status.should == "Active"
+#  end
 end
