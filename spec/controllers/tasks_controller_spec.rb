@@ -53,7 +53,7 @@ end
 
 describe TasksController, "When marking a task as done" do
   before :each do
-    Task.any_instance.stubs(:save).returns(true)
+    Task.stubs(:save).returns(true)
     @params = {:id => 1}
   end
 
