@@ -10,4 +10,11 @@ describe Task, "When created" do
     task = Factory.build(:task)
     task.status.name.should == "Active"
   end
+  
+  it "should be able to find_by_status" do
+    task = Factory.build(:task)
+    active_task = Task.find_by_status(1)
+
+    active_task.should_not be_nil
+  end
 end
