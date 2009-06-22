@@ -2,9 +2,11 @@
   <li><%= link_to "New Task", :action => "new" %></li>
 </ul>
 
-
-<ul>
-<% for task in @tasks -%>
-  <li><%= link_to "done", done_url(task) %> - <%= task.points %> pts. - <%= task.name %></li>
-<% end -%>
-</ul>
+<table>
+  <thead>
+    <tr><th id="date">Date</th><th>Name</th><th>Points</th><th>&nbsp;</th></tr>
+  </thead>
+  <% for task in @tasks -%>
+    <tr><td><%= task.created_at %></td><td><%= task.name %></td><td><%= task.points %> pts.</td><td><%= link_to "done", done_url(task) %></td></tr>
+  <% end -%>  
+</table>

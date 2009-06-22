@@ -1,7 +1,7 @@
 require 'autotest/redgreen'
 
 Autotest.add_hook :initialize do |at|
-  %w{log tmp .svn .hg .git vendor}.each {|exception| at.add_exception(exception)}
+  %w{development.sqlite3 log tmp .svn .hg .git vendor}.each {|exception| at.add_exception(exception)}
 end
 
 module SpecCucumberNotify

@@ -1,0 +1,23 @@
+
+html
+{
+  font-family: "Lucida Grande", sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+thead
+{
+  text-align: left;
+  background-color: #EEE;
+}
+
+th
+{
+  padding:10px;
+}
+
+td
+{
+  padding: 5px;
+}
