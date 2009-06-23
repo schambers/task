@@ -1,3 +1,8 @@
+*
+{
+  margin:0;
+  padding:0;
+}
 
 html
 {
@@ -14,10 +19,27 @@ thead
 
 th
 {
-  padding:10px;
+  padding:8px;
+  font-weight:normal;
+}
+
+#date
+{
+  width:60px;
 }
 
 td
 {
   padding: 5px;
+}
+
+ul#nav
+{
+  margin:10px;
+  text-align: center;
+}
+
+#velocity
+{
+  text-align:center;
 }

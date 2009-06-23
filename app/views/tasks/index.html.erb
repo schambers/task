@@ -1,12 +1,16 @@
-<ul>
+<ul id="nav">
   <li><%= link_to "New Task", :action => "new" %></li>
 </ul>
 
-<table>
+<table width="100%">
   <thead>
     <tr><th id="date">Date</th><th>Name</th><th>Points</th><th>&nbsp;</th></tr>
   </thead>
   <% for task in @tasks -%>
-    <tr><td><%= task.created_at %></td><td><%= task.name %></td><td><%= task.points %> pts.</td><td><%= link_to "done", done_url(task) %></td></tr>
+    <tr><td><%= task.created_at.strftime("%B %d") %></td><td><%= task.name %></td><td><%= task.points %> pts.</td><td><%= link_to "done", done_url(task) %></td></tr>
   <% end -%>  
 </table>
+
+<div id="velocity">
+ Your current weekly score is <%= @velocity %>
+</div>

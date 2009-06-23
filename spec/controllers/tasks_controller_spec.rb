@@ -14,6 +14,7 @@ describe TasksController, "When getting a full list of Tasks" do
     
     get :index
     assigns[:tasks].should_not be_nil
+    assigns[:velocity].should_not be_nil
   end
 end
 
