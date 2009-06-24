@@ -1,6 +1,6 @@
 class TasksController < ApplicationController
   def index
-    active_status = Status.find(:first, :conditions => ["name = 'Active'"])
+    active_status = Status.get_active_status
     @tasks = Task.find_by_status(active_status.id)
     @velocity = Task.calculate_velocity
   end

@@ -10,9 +10,11 @@ describe TasksController, "When getting a full list of Tasks" do
     status = mock()
     status.stubs(:id).returns(1)
     Status.expects(:find).with(:first, {:conditions => ["name = 'Active'"]}).returns(status)
+    Status.expects(:find).with(:first, {:conditions => ["name = 'Done'"]}).returns(status)
     Task.expects(:find_by_status).with(status.id).returns(@task)
     
     get :index
+    
     assigns[:tasks].should_not be_nil
     assigns[:velocity].should_not be_nil
   end
@@ -27,6 +29,7 @@ describe TasksController, "When creating a valid Task" do
     status = mock()
     status.stubs(:id).returns(1)
     Status.expects(:find).with(:first, :conditions => ["name = 'Active'"]).returns(status)
+    Status.expects(:find).with(:first, {:conditions => ["name = 'Done'"]}).returns(status)
     Task.expects(:find_by_status).with(status.id).returns(mock)
     
     get :index

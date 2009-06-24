@@ -7,7 +7,11 @@ Feature: Viewing the tasks
     Then I should see "Do Something"
     And I should see "5 pts."
     And I should see "done"
+    And I should see "Your current weekly score is 0"
+    
+  Scenario: When viewing a list of tasks with a completed task
     
     Given there is a task "Do Something" worth "5" points
     When I go to the homepage
-    Then I should see "Your current weekly score is 10"
+    And I follow "done"
+    Then I should see "Your current weekly score is 5"

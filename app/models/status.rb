@@ -1,3 +1,9 @@
 class Status < ActiveRecord::Base
-  named_scope :find_active_status, :conditions => ["name = 'Active'"]
+  def self.get_active_status
+    self.find(:first, :conditions => ["name = 'Active'"])
+  end
+  
+  def self.get_done_status
+    find(:first, :conditions => ["name = 'Done'"])
+  end
 end
